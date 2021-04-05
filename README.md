@@ -1,0 +1,1 @@
+This is a beginner-level HTML and CSS project with the objective of deconstructing and rebuilding and existing web page from scratch.
