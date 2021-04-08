@@ -21,7 +21,30 @@
         border-style: solid;
     }
     .searchbar input:hover {
-        box-shadow: 0px 0px 3px 2px gainsboro;
+        box-shadow: 0px 0px 8px 1px gainsboro;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #search {
+        margin: 28px 15px 0 10px;
+        padding: 8px 14px 8px 14px;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        border-style: solid;
+        border-radius: 6px;
+        border-color: white;
+    }
+    #lucky {
+        margin: 28px 10px 0 0;
+        padding: 8px 14px 8px 14px;
+        font-family: arial,sans-serif;
+        font-size: 14px;
+        border-style: solid;
+        border-radius: 6px;
+        border-color: white;
     }
 </style>
 </header>
@@ -33,7 +56,9 @@
         <div class="searchbar">
             <input type="text" id="searchbar">
         </div>
-        <div class="search">
+        <div class="buttons">
+            <input id="search" type="button" value="Google Search">
+            <input id="lucky" type="button" value="I'm Feeling Lucky">
         </div>
     </div>
 </body>
