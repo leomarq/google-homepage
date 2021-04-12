@@ -29,26 +29,62 @@
         justify-content: center;
     }
     #search {
-        margin: 28px 15px 0 10px;
-        padding: 8px 14px 8px 14px;
+        margin: 26px 8px 0 10px;
+        padding: 10px 17px 10px 17px;
         font-family: arial,sans-serif;
         font-size: 14px;
         border-style: solid;
         border-radius: 6px;
         border-color: white;
+        background-color: #f8f9fa;
+        color: #3c4043;
+    }
+    #search:hover {
+        box-shadow: 0px 0px 3px 1px gainsboro;
     }
     #lucky {
-        margin: 28px 10px 0 0;
-        padding: 8px 14px 8px 14px;
+        margin: 26px 10px 0 0;
+        padding: 10px 17px 10px 17px;
         font-family: arial,sans-serif;
         font-size: 14px;
         border-style: solid;
         border-radius: 6px;
         border-color: white;
+        background-color: #f8f9fa;
+        color: #3c4043;
+    }
+    #lucky:hover {
+        box-shadow: 0px 0px 3px 1px gainsboro;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    #gmail {
+        padding: 15px 10px 0 0;
+    }
+    #images {
+        padding: 15px 10px 0 0;
+    }
+    #signin {
+        font-size: 14px;
+        color: #fff;
+        padding: 9px 25px 9px 25px;
+        margin: 4px 10px 0 0;
+        background-color: #1a73e8;
+        border: 1px solid transparent;
+        border-radius: 3px;
     }
 </style>
 </header>
 <body>
+    <div class="page">
+        <div class="navbar">
+            <a href="https://www.google.com/gmail/about/#" id="gmail" alt="gmail">Gmail</a>
+            <a href="https://www.google.com.br/imghp?hl=en&ogbl" id="images" alt="images">Images</a>
+            <input id="signin" type="button" value="Sign in">
+        </div>
     <div class="main">
         <div class="logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"><br>
@@ -60,6 +96,7 @@
             <input id="search" type="button" value="Google Search">
             <input id="lucky" type="button" value="I'm Feeling Lucky">
         </div>
+    </div>
     </div>
 </body>
 </html>
