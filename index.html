@@ -19,9 +19,11 @@
         height: 40px;
         border-radius: 25px;
         border-style: solid;
+        border-width: 1px;
+        border-color: rgb(218, 220, 224);
     }
     .searchbar input:hover {
-        box-shadow: 0px 0px 8px 1px gainsboro;
+        box-shadow: 0px 0px 5px 1px gainsboro;
     }
     .searchbar input:focus {
         outline: none;
@@ -32,18 +34,19 @@
         justify-content: center;
     }
     #search {
-        margin: 26px 8px 0 10px;
+        margin: 28px 8px 0 10px;
         padding: 10px 17px 10px 17px;
         font-family: arial,sans-serif;
         font-size: 14px;
         border-style: solid;
         border-radius: 6px;
-        border-color: white;
+        border-color: transparent;
+        border-width: 1px;
         background-color: #f8f9fa;
         color: #3c4043;
     }
     #search:hover {
-        box-shadow: 0px 0px 3px 1px gainsboro;
+        box-shadow: 0px 1px 2px 2px gainsboro;
     }
     #lucky {
         margin: 26px 10px 0 0;
@@ -52,12 +55,13 @@
         font-size: 14px;
         border-style: solid;
         border-radius: 6px;
-        border-color: white;
+        border-color: transparent;
+        border-width: 1px;
         background-color: #f8f9fa;
         color: #3c4043;
     }
     #lucky:hover {
-        box-shadow: 0px 0px 3px 1px gainsboro;
+        box-shadow: 0px 1px 2px 2px gainsboro;
     }
     .navbar {
         display: flex;
@@ -98,15 +102,83 @@
         background-color: #4285f4;
     }
     .footer1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.54);
         position:absolute;
-        background-color: #dadce0;
-        width: 100%;
-        margin-top: ;
+        background-color: #f0f3f5;
+        width: 97.5%;
+        padding: 15px 10px 15px 22px;
+        margin-top: 370px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: rgb(218, 220, 224);
     }
     .footer2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.54);
         position:absolute;
-        background-color: #dadce0;
-        width: 100%;
+        background-color: #f0f3f5;
+        width: 97.5%;
+        padding: 15px 10px 15px 22px;
+        margin-top: 400px;
+    }
+    #about {
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.54);
+        padding-left: 5px;
+    }
+    #about:hover {
+        text-decoration: underline;
+    }
+    #ad {
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.54);
+        padding-left: 26px;
+    }
+    #ad:hover {
+        text-decoration: underline;
+    }
+    #business {
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.54);
+        padding-left: 26px;
+    }
+    #business:hover {
+        text-decoration: underline;
+    }
+    #how {
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.54);
+        padding-left: 26px;
+    }
+    #how:hover {
+        text-decoration: underline;
+    }
+    #privacy {
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.54);
+        padding-left: 1283px;
+    }
+    #privacy:hover {
+        text-decoration: underline;
+    }
+    #terms {
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.54);
+        padding-left: 25px;
+    }
+    #terms:hover {
+        text-decoration: underline;
+    }
+    #settings {
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.54);
+        padding-left: 25px;
+    }
+    #settings:hover {
+        text-decoration: underline;
     }
 </style>
 </header>
@@ -131,7 +203,13 @@
     </div>
     <br>
     <div class="footer2">
-        About Advertising Business How Search works Privacy Terms Settings
+        <a id="about" href="https://about.google/?utm_source=google-BR&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a> 
+        <a id="ad" href="https://ads.google.com/intl/en_br/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+        <a id="business" href="https://smallbusiness.withgoogle.com/intl/pt-BR_br/help/#!/">Business</a>
+        <a id="how" href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a>
+        <a id="privacy" href="https://policies.google.com/privacy?hl=en-BR&fg=1">Privacy</a>
+        <a id="terms" href="https://policies.google.com/terms?hl=en-BR&fg=1">Terms</a>
+        <a id="settings" href="https://www.google.com/preferences?hl=en-BR&fg=1">Settings</a>
     </div>
 </body>
 </html>
