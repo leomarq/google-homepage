@@ -23,6 +23,9 @@
     .searchbar input:hover {
         box-shadow: 0px 0px 8px 1px gainsboro;
     }
+    .searchbar input:focus {
+        outline: none;
+    }
     .buttons {
         display: flex;
         flex-direction: row;
@@ -94,28 +97,41 @@
     #signin:hover {
         background-color: #4285f4;
     }
-    
+    .footer1 {
+        position:absolute;
+        background-color: #dadce0;
+        width: 100%;
+        margin-top: ;
+    }
+    .footer2 {
+        position:absolute;
+        background-color: #dadce0;
+        width: 100%;
+    }
 </style>
 </header>
 <body>
-    <div class="page">
-        <div class="navbar">
+    <div class="navbar">
             <a href="https://www.google.com/gmail/about/#" id="gmail" alt="gmail">Gmail</a>
             <a href="https://www.google.com.br/imghp?hl=en&ogbl" id="images" alt="images">Images</a>
             <input id="signin" type="button" value="Sign in">
-        </div>
-    <div class="main">
-        <div class="logo">
+    </div>
+    <div class="logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"><br>
-        </div>
-        <div class="searchbar">
+    </div>
+    <div class="searchbar">
             <input type="text" id="searchbar">
-        </div>
-        <div class="buttons">
+    </div>
+    <div class="buttons">
             <input id="search" type="button" value="Google Search">
             <input id="lucky" type="button" value="I'm Feeling Lucky">
-        </div>
     </div>
+    <div class="footer1">
+        Brazil
+    </div>
+    <br>
+    <div class="footer2">
+        About Advertising Business How Search works Privacy Terms Settings
     </div>
 </body>
 </html>
